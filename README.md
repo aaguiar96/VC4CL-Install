@@ -2,7 +2,7 @@
 
 ## Dependencies
 ```
-$ sudo apt install git cmake clang-3.9 clang3.9-dev opencl-headers ocl-icd-dev ocl-icd-opencl-dev llvm-dev
+$ sudo apt install git cmake clang-3.9 clang-3.9-dev opencl-headers ocl-icd-dev ocl-icd-opencl-dev llvm-dev
 $ sudo ln -s /usr/bin/clang{-3.9,}
 ```
 
@@ -17,6 +17,7 @@ $ sudo make install
 
 ## Installing VC4C
 ```
+$ git clone https://github.com/doe300/VC4C.git
 $ mkdir VC4C/build
 $ cd VC4C/build
 $ cmake -DBUILD_TESTING=OFF -DSPIRV_FRONTEND=OFF ..
@@ -26,6 +27,7 @@ $ sudo make install
 
 ## Installing VC4CL
 ```
+$ git clone https://github.com/doe300/VC4CL.git
 $ mkdir VC4CL/build
 $ cd VC4CL/build
 $ cmake -DBUILD_TESTING=OFF ..
