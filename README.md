@@ -42,7 +42,7 @@ $ sudo ldconfig -v
 ```
 
 Now run `clinfo` to see if VideoCore IV is detected.
-If so, you can test all the setup building hello_world example.
+If so, you can test all the setup building `hello_world` example.
 
 ## Test
 ```
