@@ -41,7 +41,7 @@ $ export LD_LIBRARY_PATH=/usr/local/lib
 $ sudo ldconfig -v
 ```
 
-Now run `clinfo` to see if VideoCore IV is detected.
+Now run `sudo clinfo` to see if VideoCore IV is detected.
 If so, you can test all the setup building `hello_world` example.
 
 ## Test
