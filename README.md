@@ -44,4 +44,5 @@ $ sudo ldconfig -v
 ## Test
 ```
 $ clinfo
+$ VC4C --hex -o out hello_world.cl
 ```
