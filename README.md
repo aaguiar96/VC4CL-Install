@@ -16,8 +16,8 @@ $ sudo ln -s /usr/bin/clang{-3.9}
 ## Installing VC4CLStdLib
 ```
 $ git clone https://github.com/doe300/VC4CLStdLib.git
-$ mkdir VC4CLStdLib/build && cd VC4CLStdLib/build
-$ cmake ..
+$ cd VC4CLStdLib
+$ cmake .
 $ make
 $ sudo make install
 ```
@@ -25,9 +25,8 @@ $ sudo make install
 ## Installing VC4C
 ```
 $ git clone https://github.com/doe300/VC4C.git
-$ mkdir VC4C/build
-$ cd VC4C/build
-$ cmake -DSPIRV_FRONTEND=OFF ..
+$ cd VC4C
+$ cmake -DSPIRV_FRONTEND=OFF .
 $ make
 $ sudo make install
 ```
@@ -35,9 +34,8 @@ $ sudo make install
 ## Installing VC4CL
 ```
 $ git clone https://github.com/doe300/VC4CL.git
-$ mkdir VC4CL/build
-$ cd VC4CL/build
-$ cmake -DBUILD_TESTING=OFF ..
+$ cd VC4CL
+$ cmake -DBUILD_TESTING=OFF .
 $ make
 $ sudo make install
 ```
