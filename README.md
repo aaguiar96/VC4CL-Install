@@ -3,7 +3,7 @@
 ## Dependencies
 ```
 $ sudo apt install git cmake clang-3.9 clang-3.9-dev opencl-headers ocl-icd-dev ocl-icd-opencl-dev
-$ sudo ln -s /usr/bin/clang{-3.9,}
+$ sudo ln -s /usr/bin/clang{-3.9}
 ```
 
 ## Installing VC4CLStdLib
