@@ -1,4 +1,4 @@
-# VC4CL setup in Raspbian
+# VC4CL setup in Raspbian using Raspberry Pi 3
 
 ## Dependencies
 ```
