@@ -46,5 +46,6 @@ If so, you can test all the setup building `hello_world` example.
 
 ## Test
 ```
-$ VC4C --hex -o out hello_world.cl
+$ cd ${VC4C-root-directory}
+$ VC4C --hex -o out example/hello_world.cl
 ```
